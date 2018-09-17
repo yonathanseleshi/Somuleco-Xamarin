@@ -13,15 +13,16 @@ using Android.Widget;
 
 namespace Somuleco.Android
 {
-    [Activity(Label = "AuthActivity")]
-    public class AuthActivity : Activity
+    [Activity(Label = "OnboardingActivity")]
+    public class OnboardingActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
+            SetContentView(Resource.Layout.onboarding_main_activity);
+
             // Create your application here
-            SetContentView(Resource.Layout.authentication_main_activity);
         }
     }
 }

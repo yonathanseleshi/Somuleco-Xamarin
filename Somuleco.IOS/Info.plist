@@ -44,5 +44,7 @@
 	</array>
 	<key>CFBundleName</key>
 	<string>Somuleco.IOS</string>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
 </dict>
 </plist>
