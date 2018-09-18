@@ -13,9 +13,9 @@ using Android.Support.V4.App;
 using Android.Support.V4.View;
 using Android.Views;
 using Android.Widget;
-using Somuleco.Android.Fragments;
+using Somuleco.Droid;
 
-namespace Somuleco.Android
+namespace Somuleco.Droid
 {
     [Activity(Label = "UnauthenticatedActivity")]
     public class UnauthenticatedActivity : FragmentActivity

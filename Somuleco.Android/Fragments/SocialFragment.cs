@@ -12,7 +12,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 
-namespace Somuleco.Android
+namespace Somuleco.Droid
 {
     public class SocialFragment : Android.Support.V4.App.Fragment
     {

@@ -114,7 +114,7 @@
     <AndroidResource Include="Resources\menu\authenticated_nav_drawer.xml" />
     <AndroidResource Include="Resources\layout\lessons_fragment.axml" />
     <AndroidResource Include="Resources\layout\social_fragment.axml" />
-    <AndroidResource Include="Resources\layout\auth_library_fragment.axml" />
+    <AndroidResource Include="Resources\layout\auth_library_fragment.xml" />
     <AndroidResource Include="Resources\layout\wallet_fragment.axml" />
     <AndroidResource Include="Resources\layout\learning_profile_fragment.axml" />
     <AndroidResource Include="Resources\layout\unauthenticated_library_fragment.axml" />

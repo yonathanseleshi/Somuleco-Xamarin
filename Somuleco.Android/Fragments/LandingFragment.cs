@@ -4,15 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Util;
-using Android.Views;
-using Android.Widget;
 
-namespace Somuleco.Android
+using Android.OS;
+
+using Android.Views;
+
+
+namespace Somuleco.Droid
 {
     public class LandingFragment : Android.Support.V4.App.Fragment
     {

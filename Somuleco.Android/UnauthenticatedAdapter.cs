@@ -2,7 +2,7 @@
 using Android.Support.V4.App;
 using Java.Lang;
 
-namespace Somuleco.Android
+namespace Somuleco.Droid
 {
     public class UnauthenticatedAdapter : FragmentPagerAdapter
     {

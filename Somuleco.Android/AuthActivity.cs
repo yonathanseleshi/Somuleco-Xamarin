@@ -11,7 +11,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace Somuleco.Android
+namespace Somuleco.Droid
 {
     [Activity(Label = "AuthActivity")]
     public class AuthActivity : Activity

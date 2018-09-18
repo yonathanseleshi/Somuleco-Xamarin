@@ -9,7 +9,7 @@ using Android.Support.V7;
 using Android.Views;
 using Android.Content;
 
-namespace Somuleco.Android
+namespace Somuleco.Droid
 {
 	[Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
 	public class MainActivity : AppCompatActivity

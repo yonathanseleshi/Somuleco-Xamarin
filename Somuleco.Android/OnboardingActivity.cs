@@ -11,7 +11,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace Somuleco.Android
+namespace Somuleco.Droid
 {
     [Activity(Label = "OnboardingActivity")]
     public class OnboardingActivity : Activity

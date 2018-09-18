@@ -12,7 +12,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 
-namespace Somuleco.Android.Fragments
+namespace Somuleco.Droid
 {
     public class AuthLibraryFragment : Android.Support.V4.App.Fragment
     {
