@@ -11,7 +11,7 @@
 
 [assembly: global::Android.Runtime.ResourceDesignerAttribute("Somuleco.Android.Resource", IsApplication=true)]
 
-namespace Somuleco.Android
+namespace Somuleco.Droid
 {
 	
 	

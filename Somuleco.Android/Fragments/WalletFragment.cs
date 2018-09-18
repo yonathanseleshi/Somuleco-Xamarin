@@ -14,7 +14,7 @@ using Android.Widget;
 
 namespace Somuleco.Droid
 {
-    public class WalletFragment : Android.Support.V4.App.Fragment
+    public class WalletFragment : Droid.Support.V4.App.Fragment
     {
         public override void OnCreate(Bundle savedInstanceState)
         {

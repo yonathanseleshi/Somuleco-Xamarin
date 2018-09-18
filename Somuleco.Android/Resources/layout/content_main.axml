@@ -45,10 +45,5 @@
         android:minHeight="35px"
         android:text="Authenticated" />
     
-    <TextView
-        tools:text="hello"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"/>
-    
     </RelativeLayout>
     
