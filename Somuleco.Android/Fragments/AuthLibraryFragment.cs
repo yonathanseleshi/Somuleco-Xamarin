@@ -28,7 +28,7 @@ namespace Somuleco.Droid
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
 
-            return inflater.Inflate(Resource.Layout.auth_library_fragment, container, savedInstanceState);
+            return inflater.Inflate(Resource.Layout.auth_library, container, savedInstanceState);
         }
     }
 }
