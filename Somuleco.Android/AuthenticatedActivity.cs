@@ -53,7 +53,7 @@ namespace Somuleco.Droid
         }
 
 
-        void OnMenuItemSelected(object sender, Droid.Support.Design.Widget.NavigationView.NavigationItemSelectedEventArgs e)
+        void OnMenuItemSelected(object sender, Android.Support.Design.Widget.NavigationView.NavigationItemSelectedEventArgs e)
         {
             switch (e.MenuItem.ItemId)
             {
@@ -70,7 +70,7 @@ namespace Somuleco.Droid
             drawerLayout.CloseDrawer(Droid.Support.V4.View.GravityCompat.Start);
         }
 
-        void Navigate(Droid.Support.V4.App.Fragment fragment)
+        void Navigate(Android.Support.V4.App.Fragment fragment)
         {
             var transaction = base.SupportFragmentManager.BeginTransaction();
             transaction.Replace(Resource.Id.authContainer, fragment);

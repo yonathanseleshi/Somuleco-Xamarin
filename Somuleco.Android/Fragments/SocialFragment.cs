@@ -14,7 +14,7 @@ using Android.Widget;
 
 namespace Somuleco.Droid
 {
-    public class SocialFragment : Droid.Support.V4.App.Fragment
+    public class SocialFragment : Android.Support.V4.App.Fragment
     {
         public override void OnCreate(Bundle savedInstanceState)
         {
