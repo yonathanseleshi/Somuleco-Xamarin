@@ -180,6 +180,8 @@
     <AndroidResource Include="Resources\menu\authenticated_nav_drawer.xml" />
     <AndroidResource Include="Resources\menu\menu_main.xml" />
     <AndroidResource Include="Resources\values\ic_launcher_background.xml" />
+    <AndroidResource Include="Resources\layout\unauthenticated_landing_fragment.axml" />
+    <AndroidResource Include="Resources\layout\unauthenticated_explore_fragment.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
