@@ -29,12 +29,12 @@ namespace Somuleco.Droid
 
             SetContentView(Resource.Layout.authenticated_main_activity);
 
-            var toolbar = FindViewById<Droid.Support.V7.Widget.Toolbar>(Resource.Id.authToolbar);
+            var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.authToolbar);
             base.SetSupportActionBar(toolbar);
             SupportActionBar.SetHomeAsUpIndicator(Resource.Drawable.ic_menu_white_24dp);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
 
-            var menu = FindViewById<Droid.Support.Design.Widget.NavigationView>(Resource.Id.drawerNavMenu);
+            var menu = FindViewById<Android.Support.Design.Widget.NavigationView>(Resource.Id.drawerNavMenu);
             menu.NavigationItemSelected += OnMenuItemSelected;
 
             Navigate(new LessonsFragment());
@@ -45,9 +45,9 @@ namespace Somuleco.Droid
 
             switch (item.ItemId)
             {
-                case Droid.Resource.Id.Home:
-                    var drawerLayout = FindViewById<Droid.Support.V4.Widget.DrawerLayout>(Resource.Id.authenticatedDrawer);
-                    drawerLayout.OpenDrawer(Droid.Support.V4.View.GravityCompat.Start);
+                case Android.Resource.Id.Home:
+                    var drawerLayout = FindViewById<Android.Support.V4.Widget.DrawerLayout>(Resource.Id.authenticatedDrawer);
+                    drawerLayout.OpenDrawer(Android.Support.V4.View.GravityCompat.Start);
                     break;
             }
             return true;
@@ -59,7 +59,7 @@ namespace Somuleco.Droid
         {
             switch (e.MenuItem.ItemId)
             {
-                case Resource.Id.lessonFeed: Navigate(new LessonsFragment()); break;
+                case Resource.Id.lessonsFeed: Navigate(new LessonsFragment()); break;
                 case Resource.Id.socialFeed: Navigate(new SocialFragment()); break;
                 case Resource.Id.library: Navigate(new AuthLibraryFragment()); break;
                 case Resource.Id.wallet: Navigate(new WalletFragment()); break;
@@ -68,8 +68,8 @@ namespace Somuleco.Droid
 
             e.MenuItem.SetChecked(true);
 
-            var drawerLayout = FindViewById<Droid.Support.V4.Widget.DrawerLayout>(Resource.Id.authenticatedDrawer);
-            drawerLayout.CloseDrawer(Droid.Support.V4.View.GravityCompat.Start);
+            var drawerLayout = FindViewById<Android.Support.V4.Widget.DrawerLayout>(Resource.Id.authenticatedDrawer);
+            drawerLayout.CloseDrawer(Android.Support.V4.View.GravityCompat.Start);
         }
 
         void Navigate(Android.Support.V4.App.Fragment fragment)
