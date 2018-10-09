@@ -74,6 +74,10 @@
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Unauthenticated.storyboard" />
+    <InterfaceDefinition Include="Authenticated.storyboard" />
+    <InterfaceDefinition Include="Onboarding.storyboard" />
+    <InterfaceDefinition Include="Authentication.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
