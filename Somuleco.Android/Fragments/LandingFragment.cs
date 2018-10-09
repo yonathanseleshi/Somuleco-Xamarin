@@ -1,18 +1,11 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-
-using Android.OS;
-
+﻿using Android.OS;
+using Android.Support.V4.App;
 using Android.Views;
+using Somuleco.Droid.Resources;
 
-
-namespace Somuleco.Droid
+namespace Somuleco.Droid.Fragments
 {
-    public class LandingFragment : Android.Support.V4.App.Fragment
+    public class LandingFragment : Fragment
     {
         public override void OnCreate(Bundle savedInstanceState)
         {

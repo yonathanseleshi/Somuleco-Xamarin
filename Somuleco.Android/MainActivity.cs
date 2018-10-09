@@ -1,13 +1,11 @@
-﻿using System;
+﻿using Android;
 using Android.App;
-using Android.Widget;
-using Android.OS;
-using Android.Support.Design.Widget;
-using Android.Support.V7.App;
-using Android.Support.V4;
-using Android.Support.V7;
-using Android.Views;
 using Android.Content;
+using Android.OS;
+using Android.Support.V7.App;
+using Android.Views;
+using Android.Widget;
+
 
 namespace Somuleco.Droid
 {
@@ -22,7 +20,7 @@ namespace Somuleco.Droid
 			SetContentView(Resource.Layout.activity_main);
 
             Button onBoard = FindViewById<Button>(Resource.Id.onBoardingBtn);
-
+            
             Button authenticated = FindViewById<Button>(Resource.Id.authenticateBtn);
             Button unauth = FindViewById<Button>(Resource.Id.unauthenticatedBtn);
             Button auth = FindViewById<Button>(Resource.Id.authenticateBtn);

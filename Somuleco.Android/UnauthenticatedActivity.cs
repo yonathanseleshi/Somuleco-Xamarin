@@ -1,19 +1,11 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
+﻿using Android.App;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Support.V4.App;
 using Android.Support.V4.View;
-using Android.Views;
-using Android.Widget;
-using Somuleco.Droid;
+using Somuleco.Droid.Fragments;
+using Somuleco.Droid.Resources;
 
 namespace Somuleco.Droid
 {

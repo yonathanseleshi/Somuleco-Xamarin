@@ -1,20 +1,11 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Util;
+﻿using Android.OS;
 using Android.Views;
-using Android.Widget;
+using Somuleco.Droid.Resources;
+using Fragment = Android.Support.V4.App.Fragment;
 
-namespace Somuleco.Droid
+namespace Somuleco.Droid.Fragments
 {
-    public class LearningProfileFragment : Android.Support.V4.App.Fragment
+    public class LearningProfileFragment : Fragment
     {
         public override void OnCreate(Bundle savedInstanceState)
         {

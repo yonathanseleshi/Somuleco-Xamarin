@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Somuleco.Android.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Somuleco.Droid.Resource", IsApplication=true)]
 
-namespace Somuleco.Droid
+namespace Somuleco.Droid.Resources
 {
 	
 	
