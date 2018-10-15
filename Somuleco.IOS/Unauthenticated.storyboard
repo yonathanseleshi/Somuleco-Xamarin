@@ -1,7 +1,60 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="211">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204" />
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes />
+    <scenes>
+        <scene sceneID="210">
+            <objects>
+                <viewController id="211" sceneMemberID="viewController" customClass="LandingViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="208"/>
+                        <viewControllerLayoutGuide type="bottom" id="209"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="212">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="213" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="382" y="97"/>
+        </scene>
+        <scene sceneID="229">
+            <objects>
+                <viewController id="230" sceneMemberID="viewController" customClass="UnauthenticatedLibraryViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="227"/>
+                        <viewControllerLayoutGuide type="bottom" id="228"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="231">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="232" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976" y="86"/>
+        </scene>
+        <scene sceneID="236">
+            <objects>
+                <viewController id="237" sceneMemberID="viewController" customClass="ExploreViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="234"/>
+                        <viewControllerLayoutGuide type="bottom" id="235"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="238">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="239" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1502" y="92"/>
+        </scene>
+    </scenes>
 </document>

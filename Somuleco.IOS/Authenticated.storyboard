@@ -1,7 +1,645 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1918">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204" />
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes />
+    <scenes>
+        <scene sceneID="217">
+            <objects>
+                <viewController id="218" sceneMemberID="viewController" customClass="SocialFeedViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="215"/>
+                        <viewControllerLayoutGuide type="bottom" id="216"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="219">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem title="Social Feed" id="370" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="220" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1278" y="911"/>
+        </scene>
+        <scene sceneID="224">
+            <objects>
+                <viewController id="225" sceneMemberID="viewController" customClass="ExploreViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="222"/>
+                        <viewControllerLayoutGuide type="bottom" id="223"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="226">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem title="Explore" id="430" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="227" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1281" y="1793"/>
+        </scene>
+        <scene sceneID="244">
+            <objects>
+                <navigationController id="245" sceneMemberID="viewController" storyboardIdentifier="LessonsNavController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="247">
+                        <rect key="frame" x="0.0" y="20" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="2255" destination="2205" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="248" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="62"/>
+        </scene>
+        <scene sceneID="316">
+            <objects>
+                <navigationController id="317" sceneMemberID="viewController" storyboardIdentifier="SocialNavController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="319">
+                        <rect key="frame" x="0.0" y="20" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="371" destination="218" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="320" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="621" y="904"/>
+        </scene>
+        <scene sceneID="448">
+            <objects>
+                <navigationController id="449" sceneMemberID="viewController" storyboardIdentifier="NotificationsNavController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="451">
+                        <rect key="frame" x="0.0" y="20" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="516" destination="458" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="452" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="581" y="2648"/>
+        </scene>
+        <scene sceneID="457">
+            <objects>
+                <viewController id="458" sceneMemberID="viewController" customClass="NotificationsViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="455"/>
+                        <viewControllerLayoutGuide type="bottom" id="456"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="459">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem title="Notifications" id="515" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="460" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1287" y="2638"/>
+        </scene>
+        <scene sceneID="757">
+            <objects>
+                <navigationController id="758" sceneMemberID="viewController" storyboardIdentifier="MyLibraryNavController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="760">
+                        <rect key="frame" x="0.0" y="20" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="807" destination="767" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="761" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="578" y="3495"/>
+        </scene>
+        <scene sceneID="766">
+            <objects>
+                <viewController id="767" sceneMemberID="viewController" customClass="MyLibraryViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="764"/>
+                        <viewControllerLayoutGuide type="bottom" id="765"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="768">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem title="My Library" id="806" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="769" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1256" y="3486"/>
+        </scene>
+        <scene sceneID="1057">
+            <objects>
+                <navigationController id="1058" sceneMemberID="viewController" storyboardIdentifier="LibraryNavController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1060">
+                        <rect key="frame" x="0.0" y="20" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="1131" destination="1067" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1061" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="599" y="4370"/>
+        </scene>
+        <scene sceneID="1066">
+            <objects>
+                <viewController id="1067" sceneMemberID="viewController" customClass="LibraryViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1064"/>
+                        <viewControllerLayoutGuide type="bottom" id="1065"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1068">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem title="Library" id="1130" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1069" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1257" y="4372"/>
+        </scene>
+        <scene sceneID="1154">
+            <objects>
+                <navigationController id="1155" sceneMemberID="viewController" storyboardIdentifier="ChatNavController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1157">
+                        <rect key="frame" x="0.0" y="20" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="1216" destination="1164" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1158" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="574" y="5265"/>
+        </scene>
+        <scene sceneID="1163">
+            <objects>
+                <viewController id="1164" sceneMemberID="viewController" customClass="ChatViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1161"/>
+                        <viewControllerLayoutGuide type="bottom" id="1162"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1165">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem title="Chat" id="1215" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1166" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1255" y="5262"/>
+        </scene>
+        <scene sceneID="1247">
+            <objects>
+                <navigationController id="1248" sceneMemberID="viewController" storyboardIdentifier="WalletNavController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1250">
+                        <rect key="frame" x="0.0" y="20" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="1301" destination="1257" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1251" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="614" y="6150"/>
+        </scene>
+        <scene sceneID="1256">
+            <objects>
+                <viewController id="1257" sceneMemberID="viewController" customClass="WalletViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1254"/>
+                        <viewControllerLayoutGuide type="bottom" id="1255"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1258">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem title="Wallet" id="1300" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1259" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1273" y="6157"/>
+        </scene>
+        <scene sceneID="1355">
+            <objects>
+                <navigationController id="1356" sceneMemberID="viewController" storyboardIdentifier="LearningProfileNavController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1358">
+                        <rect key="frame" x="0.0" y="20" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="1419" destination="1365" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1359" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="533" y="7087"/>
+        </scene>
+        <scene sceneID="1364">
+            <objects>
+                <viewController id="1365" sceneMemberID="viewController" customClass="LearningProfileViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1362"/>
+                        <viewControllerLayoutGuide type="bottom" id="1363"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1366">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem title="Learning Profile" id="1418" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1367" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1261" y="7093"/>
+        </scene>
+        <scene sceneID="1445">
+            <objects>
+                <navigationController id="1446" sceneMemberID="viewController" storyboardIdentifier="ProfileNavController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1448">
+                        <rect key="frame" x="0.0" y="20" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="1491" destination="1455" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1449" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="506" y="7956"/>
+        </scene>
+        <scene sceneID="1454">
+            <objects>
+                <viewController id="1455" sceneMemberID="viewController" customClass="ProfileViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1452"/>
+                        <viewControllerLayoutGuide type="bottom" id="1453"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1456">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem title="Profile" id="1490" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1457" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1234" y="7965"/>
+        </scene>
+        <scene sceneID="1528">
+            <objects>
+                <navigationController id="1529" sceneMemberID="viewController" storyboardIdentifier="CartNavController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1531">
+                        <rect key="frame" x="0.0" y="20" width="414" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="1588" destination="1538" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1532" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="514" y="8902"/>
+        </scene>
+        <scene sceneID="1537">
+            <objects>
+                <viewController id="1538" sceneMemberID="viewController" customClass="CartViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1535"/>
+                        <viewControllerLayoutGuide type="bottom" id="1536"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1539">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem title="Cart" id="1587" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1540" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1243" y="8896"/>
+        </scene>
+        <scene sceneID="1844">
+            <objects>
+                <viewController id="1845" sceneMemberID="viewController" customClass="DrawerMenuController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1842"/>
+                        <viewControllerLayoutGuide type="bottom" id="1843"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1846">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1862" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="31" y="121" width="42" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" image="MyLibrary">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1863" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="110" y="123" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Cart"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1865" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="311" y="123" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Chat"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Library" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1866" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="22" y="158" width="61" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1867" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="122" y="158" width="28" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notifications" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1868" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="200" y="159" width="76" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1869" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="319" y="158" width="31" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4036" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="215" y="121" width="40" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="tintColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
+                                <state key="normal" image="Notifications"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                            </button>
+                            <containerView contentMode="scaleToFill" id="5198" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="207" width="414" height="529"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <segue id="5316" destination="5029" kind="embed"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5586" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="98" y="22" width="253" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Display Name"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5587" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="98" y="50" width="274" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="@Username"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5588" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="UserProfilePicDefault">
+                                <rect key="frame" x="20" y="20" width="66" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5589" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="20" y="12" width="66" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="MyLibraryButton" destination="1862" id="name-outlet-1862"/>
+                        <outlet property="CartButton" destination="1863" id="name-outlet-1863"/>
+                        <outlet property="NotificationsButton" destination="4036" id="name-outlet-4036"/>
+                        <outlet property="ChatButton" destination="1865" id="name-outlet-1865"/>
+                        <outlet property="ProfileButton" destination="5586" id="name-outlet-5586"/>
+                        <outlet property="ProfileButton2" destination="5587" id="name-outlet-5587"/>
+                        <outlet property="ProfilePic" destination="5588" id="name-outlet-5588"/>
+                        <outlet property="ProfilePicButton" destination="5589" id="name-outlet-5589"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1847" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-659" y="1528"/>
+        </scene>
+        <scene sceneID="1917">
+            <objects>
+                <viewController id="1918" sceneMemberID="viewController" customClass="AuthenticatedRootViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1915"/>
+                        <viewControllerLayoutGuide type="bottom" id="1916"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1919">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1920" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-196" y="560"/>
+        </scene>
+        <scene sceneID="2204">
+            <objects>
+                <viewController id="2205" sceneMemberID="viewController" customClass="LessonsFeedViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2202"/>
+                        <viewControllerLayoutGuide type="bottom" id="2203"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2206">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem title="Lesson Feed" id="2258" key="navigationItem">
+                        <leftBarButtonItems>
+                            <barButtonItem id="2303" image="MenuToggle">
+                                <color key="tintColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="2304"/>
+                            <barButtonItem id="2315" image="Hamburger"/>
+                        </leftBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="MenuToggle" destination="2303" id="name-outlet-2303"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2207" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1287" y="62"/>
+        </scene>
+        <scene sceneID="5028">
+            <objects>
+                <tableViewController id="5029" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="5030" customClass="DrawerTableViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="529"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="5029" id="5031"/>
+                            <outlet property="delegate" destination="5029" id="5032"/>
+                        </connections>
+                        <sections>
+                            <tableViewSection id="5097">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="1881" style="IBUITableViewCellStyleDefault" textLabel="1884" imageView="1885" rowHeight="50" accessoryType="disclosureIndicator">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1881" id="1882">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="49.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Lessons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1884">
+                                                    <rect key="frame" x="52" y="0.0" width="324" height="49.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="LessonsFeed" id="1885">
+                                                    <rect key="frame" x="20" y="16" width="17" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="1886" rowHeight="50" style="IBUITableViewCellStyleDefault" textLabel="1888" imageView="1889" accessoryType="disclosureIndicator">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1886" id="1887">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="49.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Social" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1888">
+                                                    <rect key="frame" x="52" y="0.0" width="324" height="49.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="SocialFeed" id="1889">
+                                                    <rect key="frame" x="20" y="16" width="17" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <rect key="contentStretch" x="0.0" y="0.0" width="1" height="1"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="1901" rowHeight="50" style="IBUITableViewCellStyleDefault" textLabel="1906" imageView="1907" accessoryType="disclosureIndicator">
+                                        <rect key="frame" x="0.0" y="100" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1901" id="1902">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="49.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Library" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1906">
+                                                    <rect key="frame" x="59" y="0.0" width="317" height="49.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Library" id="1907">
+                                                    <rect key="frame" x="20" y="12" width="24" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="1904" rowHeight="50" style="IBUITableViewCellStyleDefault" textLabel="1910" imageView="1912" accessoryType="disclosureIndicator">
+                                        <rect key="frame" x="0.0" y="150" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1904" id="1905">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="49.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Wallet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1910">
+                                                    <rect key="frame" x="59" y="0.0" width="317" height="49.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Wallet" id="1912">
+                                                    <rect key="frame" x="20" y="12" width="24" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="1908" style="IBUITableViewCellStyleDefault" textLabel="1913" imageView="1914" accessoryType="disclosureIndicator">
+                                        <rect key="frame" x="0.0" y="200" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1908" id="1909">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Learning Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1913">
+                                                    <rect key="frame" x="59" y="0.0" width="317" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="LearningProfile" id="1914">
+                                                    <rect key="frame" x="20" y="9" width="24" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5035" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-113" y="1521"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SocialFeed" width="17" height="17"/>
+        <image name="Wallet" width="24" height="24"/>
+        <image name="Notifications" width="17" height="17"/>
+        <image name="Chat" width="24" height="24"/>
+        <image name="Cart" width="24" height="24"/>
+        <image name="MyLibrary" width="24" height="24"/>
+        <image name="Library" width="24" height="24"/>
+        <image name="LearningProfile" width="24" height="24"/>
+        <image name="LessonsFeed" width="17" height="17"/>
+        <image name="MenuToggle" width="24" height="20"/>
+        <image name="UserProfilePicDefault" width="24" height="24"/>
+    </resources>
+    <color key="tintColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
 </document>

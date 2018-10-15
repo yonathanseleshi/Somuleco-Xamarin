@@ -11,15 +11,19 @@ using UIKit;
 
 namespace Somuleco.IOS
 {
-    [Register ("ViewController")]
-    partial class ViewController
+    [Register ("LessonsFeedViewController")]
+    partial class LessonsFeedViewController
     {
-        [Action ("UIButton201_TouchUpInside:")]
+        [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton201_TouchUpInside (UIKit.UIButton sender);
+        UIKit.UIBarButtonItem MenuToggle { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
+            if (MenuToggle != null) {
+                MenuToggle.Dispose ();
+                MenuToggle = null;
+            }
         }
     }
 }

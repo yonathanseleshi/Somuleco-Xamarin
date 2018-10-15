@@ -11,13 +11,9 @@ using UIKit;
 
 namespace Somuleco.IOS
 {
-    [Register ("ViewController")]
-    partial class ViewController
+    [Register ("LandingViewController")]
+    partial class LandingViewController
     {
-        [Action ("UIButton201_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton201_TouchUpInside (UIKit.UIButton sender);
-
         void ReleaseDesignerOutlets ()
         {
         }
