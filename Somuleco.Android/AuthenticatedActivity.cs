@@ -2,13 +2,14 @@
 using Android.App;
 using Android.OS;
 using Android.Support.V4.App;
-using Android.Views;
-using Somuleco.Droid.Fragments;
+using Android.Support.V4.View;
+using Android.Support.V7.App;
+
 
 namespace Somuleco.Droid
 {
     [Activity(Label = "AuthenticatedActivity")]
-    public class AuthenticatedActivity : FragmentActivity
+    public class AuthenticatedActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

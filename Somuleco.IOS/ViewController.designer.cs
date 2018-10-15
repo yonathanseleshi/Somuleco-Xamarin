@@ -1,4 +1,4 @@
-﻿// WARNING
+// WARNING
 //
 // This file has been generated automatically by Visual Studio from the outlets and
 // actions declared in your storyboard file.
@@ -14,5 +14,12 @@ namespace Somuleco.IOS
     [Register ("ViewController")]
     partial class ViewController
     {
+        [Action ("UIButton201_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void UIButton201_TouchUpInside (UIKit.UIButton sender);
+
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/lessonsFeed"
+        android:title="Lessons"
+        android:icon="@drawable/ic_learningfeed"
+        />
+      <item
+        android:id="@+id/socialFeed"
+        android:icon="@drawable/ic_socialfeed"
+        android:title="Social"
+        />
+      <item
+        android:id="@+id/library"
+        android:title="Library"
+        android:icon="@drawable/ic_library"
+        />
+      <item
+        android:id="@+id/wallet"
+        android:title="Wallet"
+        android:icon="@drawable/ic_wallet"
+        />
+      <item
+        android:id="@+id/learningProfile"
+        android:title="Learning Profile"
+        android:icon="@drawable/ic_learningprofile"
+        />
+    
+</menu>
