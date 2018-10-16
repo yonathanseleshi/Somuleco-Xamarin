@@ -26,5 +26,26 @@ namespace Somuleco.UWP
         {
             this.InitializeComponent();
         }
+
+
+        public void Unauthenticated_click(Object sender, RoutedEventArgs e)
+        {
+
+            this.Frame.Navigate(typeof(Unauthenticated));
+        }
+
+        public void Authenticated_click(Object sender, RoutedEventArgs e)
+        {
+
+            this.Frame.Navigate(typeof(Authenticated));
+        }
+
+        public void Authentication_click(Object sender, RoutedEventArgs e)
+        {
+
+            this.Frame.Navigate(typeof(Authentication));
+        }
+
+     
     }
 }

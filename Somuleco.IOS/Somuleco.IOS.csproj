@@ -304,74 +304,210 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ios-marketing.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\SocialFeed.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\SocialFeed.imageset\SocialFeed.png" />
-    <ImageAsset Include="Assets.xcassets\SocialFeed.imageset\SocialFeed%402x.png" />
-    <ImageAsset Include="Assets.xcassets\SocialFeed.imageset\SocialFeed%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Wallet.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Wallet.imageset\wallet.png" />
-    <ImageAsset Include="Assets.xcassets\Wallet.imageset\wallet%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Wallet.imageset\wallet%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Notifications.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Notifications.imageset\Notification%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Chat.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Chat.imageset\Chat.png" />
-    <ImageAsset Include="Assets.xcassets\Chat.imageset\Chat%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Chat.imageset\Chat%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Cart.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Cart.imageset\ShoppingCart.png" />
-    <ImageAsset Include="Assets.xcassets\Cart.imageset\ShoppingCart%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Cart.imageset\ShoppingCart%403x.png" />
-    <ImageAsset Include="Assets.xcassets\MyLibrary.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\MyLibrary.imageset\Mylibrary.png" />
-    <ImageAsset Include="Assets.xcassets\MyLibrary.imageset\Mylibrary%402x.png" />
-    <ImageAsset Include="Assets.xcassets\MyLibrary.imageset\Mylibrary%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Hamburger.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Library.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Library.imageset\Library.png" />
-    <ImageAsset Include="Assets.xcassets\Library.imageset\Library%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Library.imageset\Library%403x.png" />
-    <ImageAsset Include="Assets.xcassets\LearningProfile.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Ideas.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\LearningProfile.imageset\LearningProfile.png" />
-    <ImageAsset Include="Assets.xcassets\LearningProfile.imageset\LearningProfile%402x.png" />
-    <ImageAsset Include="Assets.xcassets\LearningProfile.imageset\LearningProfile%403x.png" />
-    <ImageAsset Include="Assets.xcassets\LibraryTab.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\ExploreTab.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\ExploreTab.imageset\ExploreTab.png" />
-    <ImageAsset Include="Assets.xcassets\ExploreTab.imageset\ExploreTab%402x.png" />
-    <ImageAsset Include="Assets.xcassets\ExploreTab.imageset\ExploreTab%403x.png" />
-    <ImageAsset Include="Assets.xcassets\LibraryTab.imageset\LibraryTab.png" />
-    <ImageAsset Include="Assets.xcassets\LibraryTab.imageset\LibraryTab%402x.png" />
-    <ImageAsset Include="Assets.xcassets\LibraryTab.imageset\LibraryTab%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Schools.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Schools.imageset\Schools.png" />
-    <ImageAsset Include="Assets.xcassets\Schools.imageset\Schools%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Schools.imageset\Schools%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Jobs.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Jobs.imageset\Jobs.png" />
-    <ImageAsset Include="Assets.xcassets\Jobs.imageset\Jobs%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Jobs.imageset\Jobs%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Filter.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Filter.imageset\Filter.png" />
-    <ImageAsset Include="Assets.xcassets\Filter.imageset\Filter%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Filter.imageset\Filter%403x.png" />
-    <ImageAsset Include="Assets.xcassets\UserProfilePicDefault.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\UserProfilePicDefault.imageset\user.png" />
-    <ImageAsset Include="Assets.xcassets\UserProfilePicDefault.imageset\user%402x.png" />
-    <ImageAsset Include="Assets.xcassets\UserProfilePicDefault.imageset\user%403x.png" />
-    <ImageAsset Include="Assets.xcassets\LessonsFeed.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\LessonsFeed.imageset\LearningFeed.png" />
-    <ImageAsset Include="Assets.xcassets\LessonsFeed.imageset\LearningFeed%402x.png" />
-    <ImageAsset Include="Assets.xcassets\LessonsFeed.imageset\LearningFeed%403x.png" />
-    <ImageAsset Include="Assets.xcassets\MenuToggle.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\MenuToggle.imageset\Hamburger.png" />
-    <ImageAsset Include="Assets.xcassets\MenuToggle.imageset\Hamburger%402x.png" />
-    <ImageAsset Include="Assets.xcassets\MenuToggle.imageset\Hamburger%403x.png" />
-    <ImageAsset Include="Assets.xcassets\LaunchScreen.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\LaunchScreen.imageset\LaunchScreen.png" />
-    <ImageAsset Include="Assets.xcassets\LaunchScreen.imageset\LaunchScreen%402x.png" />
-    <ImageAsset Include="Assets.xcassets\LaunchScreen.imageset\LaunchScreen%403x.png" />
+    <ImageAsset Include="Assets.xcassets\SocialFeed.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\SocialFeed.imageset\SocialFeed.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\SocialFeed.imageset\SocialFeed%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\SocialFeed.imageset\SocialFeed%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Wallet.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Wallet.imageset\wallet.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Wallet.imageset\wallet%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Wallet.imageset\wallet%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Notifications.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Notifications.imageset\Notification%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Chat.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Chat.imageset\Chat.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Chat.imageset\Chat%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Chat.imageset\Chat%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Cart.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Cart.imageset\ShoppingCart.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Cart.imageset\ShoppingCart%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Cart.imageset\ShoppingCart%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\MyLibrary.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\MyLibrary.imageset\Mylibrary.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\MyLibrary.imageset\Mylibrary%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\MyLibrary.imageset\Mylibrary%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Hamburger.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Library.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Library.imageset\Library.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Library.imageset\Library%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Library.imageset\Library%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LearningProfile.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Ideas.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LearningProfile.imageset\LearningProfile.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LearningProfile.imageset\LearningProfile%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LearningProfile.imageset\LearningProfile%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LibraryTab.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\ExploreTab.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\ExploreTab.imageset\ExploreTab.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\ExploreTab.imageset\ExploreTab%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\ExploreTab.imageset\ExploreTab%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LibraryTab.imageset\LibraryTab.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LibraryTab.imageset\LibraryTab%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LibraryTab.imageset\LibraryTab%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Schools.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Schools.imageset\Schools.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Schools.imageset\Schools%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Schools.imageset\Schools%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Jobs.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Jobs.imageset\Jobs.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Jobs.imageset\Jobs%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Jobs.imageset\Jobs%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Filter.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Filter.imageset\Filter.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Filter.imageset\Filter%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Filter.imageset\Filter%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\UserProfilePicDefault.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\UserProfilePicDefault.imageset\user.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\UserProfilePicDefault.imageset\user%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\UserProfilePicDefault.imageset\user%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LessonsFeed.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LessonsFeed.imageset\LearningFeed.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LessonsFeed.imageset\LearningFeed%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LessonsFeed.imageset\LearningFeed%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\MenuToggle.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\MenuToggle.imageset\Hamburger.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\MenuToggle.imageset\Hamburger%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\MenuToggle.imageset\Hamburger%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchScreen.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchScreen.imageset\LaunchScreen.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchScreen.imageset\LaunchScreen%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchScreen.imageset\LaunchScreen%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
