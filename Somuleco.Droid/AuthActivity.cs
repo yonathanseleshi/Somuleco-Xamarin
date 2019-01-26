@@ -16,6 +16,8 @@ namespace Somuleco.Droid
     [Activity(Label = "AuthActivity")]
     public class AuthActivity : Activity
     {
+
+        //AuthActivity
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
