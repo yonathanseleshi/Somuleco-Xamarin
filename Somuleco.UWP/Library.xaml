@@ -10,5 +10,9 @@
 
     <Grid>
 
+        <CommandBar>
+            <AppBarButton Label="My Library"/>
+        </CommandBar>
+
     </Grid>
 </Page>
