@@ -42,7 +42,7 @@ namespace Somuleco.Droid
             var titles = CharSequence.ArrayFromStringArray(new[] { "Landing", "Explore", "Library" });
 
             ViewPager viewPager = FindViewById<ViewPager>(Resource.Id.unauth_viewPager);
-            var tabLayout = FindViewById<TabLayout>(Resource.Id.tabLayout);
+            var tabLayout = FindViewById<TabLayout>(Resource.Id.unauthTabLayout);
 
             var adapter = new UnauthenticatedAdapter(SupportFragmentManager, fragments, titles);
 
