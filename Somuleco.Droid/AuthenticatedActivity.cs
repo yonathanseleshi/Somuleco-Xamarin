@@ -14,6 +14,7 @@ using Android.Support.Design.Widget;
 using Android.Support.V4.App;
 using Android.Support.V4.View;
 using Android.Support.V7.App;
+using Toolbar = Android.Support.V7.Widget.Toolbar;
 
 
 namespace Somuleco.Droid
@@ -30,7 +31,8 @@ namespace Somuleco.Droid
             SetContentView(Resource.Layout.authenticated_main_activity);
 
             var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.authToolbar);
-            base.SetSupportActionBar(toolbar);
+            SetSupportActionBar(toolbar);
+            SupportActionBar.Title = "Somuleco";
             SupportActionBar.SetHomeAsUpIndicator(Resource.Drawable.ic_menu_white_24dp);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
 
@@ -39,6 +41,9 @@ namespace Somuleco.Droid
 
             Navigate(new LessonsFragment());
         }
+
+
+        
 
 
         public override bool OnOptionsItemSelected(IMenuItem item){
@@ -75,7 +80,7 @@ namespace Somuleco.Droid
         void Navigate(Android.Support.V4.App.Fragment fragment)
         {
             var transaction = base.SupportFragmentManager.BeginTransaction();
-            transaction.Replace(Resource.Id.authContainer, fragment);
+            transaction.Replace(Resource.Id.drawerContent, fragment);
             transaction.Commit();
         }
     }

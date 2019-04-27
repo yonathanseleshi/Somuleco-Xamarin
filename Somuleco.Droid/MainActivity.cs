@@ -23,7 +23,7 @@ namespace Somuleco.Droid
 
             Button onBoard = FindViewById<Button>(Resource.Id.onBoardingBtn);
 
-            Button authenticated = FindViewById<Button>(Resource.Id.authenticateBtn);
+            Button authenticated = FindViewById<Button>(Resource.Id.authenticatedBtn);
             Button unauth = FindViewById<Button>(Resource.Id.unauthenticatedBtn);
             Button auth = FindViewById<Button>(Resource.Id.authenticateBtn);
 

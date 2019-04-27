@@ -3299,8 +3299,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09003e
 			public const int SYM = 2131296318;
 			
-			// aapt resource value: 0x7f0900c4
-			public const int action0 = 2131296452;
+			// aapt resource value: 0x7f0900c3
+			public const int action0 = 2131296451;
 			
 			// aapt resource value: 0x7f09009a
 			public const int action_bar = 2131296410;
@@ -3323,17 +3323,17 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f090076
 			public const int action_bar_title = 2131296374;
 			
-			// aapt resource value: 0x7f0900c1
-			public const int action_container = 2131296449;
+			// aapt resource value: 0x7f0900c0
+			public const int action_container = 2131296448;
 			
 			// aapt resource value: 0x7f09009b
 			public const int action_context_bar = 2131296411;
 			
-			// aapt resource value: 0x7f0900c8
-			public const int action_divider = 2131296456;
+			// aapt resource value: 0x7f0900c7
+			public const int action_divider = 2131296455;
 			
-			// aapt resource value: 0x7f0900c2
-			public const int action_image = 2131296450;
+			// aapt resource value: 0x7f0900c1
+			public const int action_image = 2131296449;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -3350,14 +3350,14 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f090078
 			public const int action_mode_close_button = 2131296376;
 			
-			// aapt resource value: 0x7f0900de
-			public const int action_settings = 2131296478;
+			// aapt resource value: 0x7f0900dd
+			public const int action_settings = 2131296477;
 			
-			// aapt resource value: 0x7f0900c3
-			public const int action_text = 2131296451;
+			// aapt resource value: 0x7f0900c2
+			public const int action_text = 2131296450;
 			
-			// aapt resource value: 0x7f0900d1
-			public const int actions = 2131296465;
+			// aapt resource value: 0x7f0900d0
+			public const int actions = 2131296464;
 			
 			// aapt resource value: 0x7f090079
 			public const int activity_chooser_view_content = 2131296377;
@@ -3377,17 +3377,14 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f090072
 			public const int async = 2131296370;
 			
-			// aapt resource value: 0x7f0900ae
-			public const int authContainer = 2131296430;
-			
 			// aapt resource value: 0x7f0900ac
 			public const int authToolbar = 2131296428;
 			
-			// aapt resource value: 0x7f0900b2
-			public const int authenticateBtn = 2131296434;
+			// aapt resource value: 0x7f0900b1
+			public const int authenticateBtn = 2131296433;
 			
-			// aapt resource value: 0x7f0900b3
-			public const int authenticatedBtn = 2131296435;
+			// aapt resource value: 0x7f0900b2
+			public const int authenticatedBtn = 2131296434;
 			
 			// aapt resource value: 0x7f0900aa
 			public const int authenticatedDrawer = 2131296426;
@@ -3413,8 +3410,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09007f
 			public const int buttonPanel = 2131296383;
 			
-			// aapt resource value: 0x7f0900c5
-			public const int cancel_action = 2131296453;
+			// aapt resource value: 0x7f0900c4
+			public const int cancel_action = 2131296452;
 			
 			// aapt resource value: 0x7f09004c
 			public const int center = 2131296332;
@@ -3431,8 +3428,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f090093
 			public const int checkbox = 2131296403;
 			
-			// aapt resource value: 0x7f0900cd
-			public const int chronometer = 2131296461;
+			// aapt resource value: 0x7f0900cc
+			public const int chronometer = 2131296460;
 			
 			// aapt resource value: 0x7f090061
 			public const int clip_horizontal = 2131296353;
@@ -3443,8 +3440,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f090040
 			public const int collapseActionView = 2131296320;
 			
-			// aapt resource value: 0x7f0900b6
-			public const int container = 2131296438;
+			// aapt resource value: 0x7f0900b5
+			public const int container = 2131296437;
 			
 			// aapt resource value: 0x7f09008f
 			public const int content = 2131296399;
@@ -3452,8 +3449,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f090082
 			public const int contentPanel = 2131296386;
 			
-			// aapt resource value: 0x7f0900b7
-			public const int coordinator = 2131296439;
+			// aapt resource value: 0x7f0900b6
+			public const int coordinator = 2131296438;
 			
 			// aapt resource value: 0x7f090089
 			public const int custom = 2131296393;
@@ -3467,20 +3464,20 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09007c
 			public const int default_activity_button = 2131296380;
 			
-			// aapt resource value: 0x7f0900b9
-			public const int design_bottom_sheet = 2131296441;
-			
-			// aapt resource value: 0x7f0900be
-			public const int design_menu_item_action_area = 2131296446;
+			// aapt resource value: 0x7f0900b8
+			public const int design_bottom_sheet = 2131296440;
 			
 			// aapt resource value: 0x7f0900bd
-			public const int design_menu_item_action_area_stub = 2131296445;
+			public const int design_menu_item_action_area = 2131296445;
 			
 			// aapt resource value: 0x7f0900bc
-			public const int design_menu_item_text = 2131296444;
+			public const int design_menu_item_action_area_stub = 2131296444;
 			
 			// aapt resource value: 0x7f0900bb
-			public const int design_navigation_view = 2131296443;
+			public const int design_menu_item_text = 2131296443;
+			
+			// aapt resource value: 0x7f0900ba
+			public const int design_navigation_view = 2131296442;
 			
 			// aapt resource value: 0x7f09006f
 			public const int dimensions = 2131296367;
@@ -3494,8 +3491,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f0900ad
 			public const int drawerContent = 2131296429;
 			
-			// aapt resource value: 0x7f0900af
-			public const int drawerNavMenu = 2131296431;
+			// aapt resource value: 0x7f0900ae
+			public const int drawerNavMenu = 2131296430;
 			
 			// aapt resource value: 0x7f09009c
 			public const int edit_query = 2131296412;
@@ -3503,8 +3500,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f090037
 			public const int end = 2131296311;
 			
-			// aapt resource value: 0x7f0900d3
-			public const int end_padder = 2131296467;
+			// aapt resource value: 0x7f0900d2
+			public const int end_padder = 2131296466;
 			
 			// aapt resource value: 0x7f090046
 			public const int enterAlways = 2131296326;
@@ -3557,8 +3554,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09007e
 			public const int icon = 2131296382;
 			
-			// aapt resource value: 0x7f0900d2
-			public const int icon_group = 2131296466;
+			// aapt resource value: 0x7f0900d1
+			public const int icon_group = 2131296465;
 			
 			// aapt resource value: 0x7f090041
 			public const int ifRoom = 2131296321;
@@ -3566,8 +3563,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09007b
 			public const int image = 2131296379;
 			
-			// aapt resource value: 0x7f0900ce
-			public const int info = 2131296462;
+			// aapt resource value: 0x7f0900cd
+			public const int info = 2131296461;
 			
 			// aapt resource value: 0x7f090066
 			public const int invisible = 2131296358;
@@ -3581,20 +3578,20 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09004e
 			public const int labeled = 2131296334;
 			
-			// aapt resource value: 0x7f0900b5
-			public const int largeLabel = 2131296437;
+			// aapt resource value: 0x7f0900b4
+			public const int largeLabel = 2131296436;
 			
-			// aapt resource value: 0x7f0900dd
-			public const int learningProfile = 2131296477;
+			// aapt resource value: 0x7f0900dc
+			public const int learningProfile = 2131296476;
 			
 			// aapt resource value: 0x7f090054
 			public const int left = 2131296340;
 			
-			// aapt resource value: 0x7f0900d9
-			public const int lessonsFeed = 2131296473;
+			// aapt resource value: 0x7f0900d8
+			public const int lessonsFeed = 2131296472;
 			
-			// aapt resource value: 0x7f0900db
-			public const int library = 2131296475;
+			// aapt resource value: 0x7f0900da
+			public const int library = 2131296474;
 			
 			// aapt resource value: 0x7f09001c
 			public const int line1 = 2131296284;
@@ -3608,11 +3605,11 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09007d
 			public const int list_item = 2131296381;
 			
-			// aapt resource value: 0x7f0900d8
-			public const int masked = 2131296472;
+			// aapt resource value: 0x7f0900d7
+			public const int masked = 2131296471;
 			
-			// aapt resource value: 0x7f0900c7
-			public const int media_actions = 2131296455;
+			// aapt resource value: 0x7f0900c6
+			public const int media_actions = 2131296454;
 			
 			// aapt resource value: 0x7f0900a9
 			public const int message = 2131296425;
@@ -3632,8 +3629,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09002f
 			public const int multiply = 2131296303;
 			
-			// aapt resource value: 0x7f0900ba
-			public const int navigation_header_container = 2131296442;
+			// aapt resource value: 0x7f0900b9
+			public const int navigation_header_container = 2131296441;
 			
 			// aapt resource value: 0x7f090042
 			public const int never = 2131296322;
@@ -3644,17 +3641,17 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f090025
 			public const int normal = 2131296293;
 			
-			// aapt resource value: 0x7f0900d0
-			public const int notification_background = 2131296464;
-			
-			// aapt resource value: 0x7f0900ca
-			public const int notification_main_column = 2131296458;
+			// aapt resource value: 0x7f0900cf
+			public const int notification_background = 2131296463;
 			
 			// aapt resource value: 0x7f0900c9
-			public const int notification_main_column_container = 2131296457;
+			public const int notification_main_column = 2131296457;
 			
-			// aapt resource value: 0x7f0900b0
-			public const int onBoardingBtn = 2131296432;
+			// aapt resource value: 0x7f0900c8
+			public const int notification_main_column_container = 2131296456;
+			
+			// aapt resource value: 0x7f0900af
+			public const int onBoardingBtn = 2131296431;
 			
 			// aapt resource value: 0x7f090060
 			public const int outline = 2131296352;
@@ -3692,11 +3689,11 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f090055
 			public const int right = 2131296341;
 			
-			// aapt resource value: 0x7f0900cf
-			public const int right_icon = 2131296463;
+			// aapt resource value: 0x7f0900ce
+			public const int right_icon = 2131296462;
 			
-			// aapt resource value: 0x7f0900cb
-			public const int right_side = 2131296459;
+			// aapt resource value: 0x7f0900ca
+			public const int right_side = 2131296458;
 			
 			// aapt resource value: 0x7f09000c
 			public const int save_image_matrix = 2131296268;
@@ -3773,8 +3770,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09002c
 			public const int showTitle = 2131296300;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int smallLabel = 2131296436;
+			// aapt resource value: 0x7f0900b3
+			public const int smallLabel = 2131296435;
 			
 			// aapt resource value: 0x7f090016
 			public const int snackbar_action = 2131296278;
@@ -3788,8 +3785,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09004b
 			public const int snapMargins = 2131296331;
 			
-			// aapt resource value: 0x7f0900da
-			public const int socialFeed = 2131296474;
+			// aapt resource value: 0x7f0900d9
+			public const int socialFeed = 2131296473;
 			
 			// aapt resource value: 0x7f090080
 			public const int spacer = 2131296384;
@@ -3818,8 +3815,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f090056
 			public const int start = 2131296342;
 			
-			// aapt resource value: 0x7f0900c6
-			public const int status_bar_latest_event_content = 2131296454;
+			// aapt resource value: 0x7f0900c5
+			public const int status_bar_latest_event_content = 2131296453;
 			
 			// aapt resource value: 0x7f09005b
 			public const int stretch = 2131296347;
@@ -3830,8 +3827,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f0900a5
 			public const int submit_area = 2131296421;
 			
-			// aapt resource value: 0x7f0900d4
-			public const int tabLayout = 2131296468;
+			// aapt resource value: 0x7f0900d3
+			public const int tabLayout = 2131296467;
 			
 			// aapt resource value: 0x7f090026
 			public const int tabMode = 2131296294;
@@ -3860,8 +3857,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09005a
 			public const int textStart = 2131296346;
 			
-			// aapt resource value: 0x7f0900bf
-			public const int text_input_password_toggle = 2131296447;
+			// aapt resource value: 0x7f0900be
+			public const int text_input_password_toggle = 2131296446;
 			
 			// aapt resource value: 0x7f090018
 			public const int textinput_counter = 2131296280;
@@ -3872,8 +3869,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09001a
 			public const int textinput_helper_text = 2131296282;
 			
-			// aapt resource value: 0x7f0900cc
-			public const int time = 2131296460;
+			// aapt resource value: 0x7f0900cb
+			public const int time = 2131296459;
 			
 			// aapt resource value: 0x7f090023
 			public const int title = 2131296291;
@@ -3884,8 +3881,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09008b
 			public const int title_template = 2131296395;
 			
-			// aapt resource value: 0x7f0900c0
-			public const int toolbar = 2131296448;
+			// aapt resource value: 0x7f0900bf
+			public const int toolbar = 2131296447;
 			
 			// aapt resource value: 0x7f090045
 			public const int top = 2131296325;
@@ -3893,8 +3890,8 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09008a
 			public const int topPanel = 2131296394;
 			
-			// aapt resource value: 0x7f0900b8
-			public const int touch_outside = 2131296440;
+			// aapt resource value: 0x7f0900b7
+			public const int touch_outside = 2131296439;
 			
 			// aapt resource value: 0x7f09000f
 			public const int transition_current_scene = 2131296271;
@@ -3911,14 +3908,14 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f090013
 			public const int transition_transform = 2131296275;
 			
-			// aapt resource value: 0x7f0900d6
-			public const int unauthTabLayout = 2131296470;
-			
 			// aapt resource value: 0x7f0900d5
-			public const int unauth_viewPager = 2131296469;
+			public const int unauthTabLayout = 2131296469;
 			
-			// aapt resource value: 0x7f0900b1
-			public const int unauthenticatedBtn = 2131296433;
+			// aapt resource value: 0x7f0900d4
+			public const int unauth_viewPager = 2131296468;
+			
+			// aapt resource value: 0x7f0900b0
+			public const int unauthenticatedBtn = 2131296432;
 			
 			// aapt resource value: 0x7f090034
 			public const int uniform = 2131296308;
@@ -3935,11 +3932,11 @@ namespace Somuleco.Droid
 			// aapt resource value: 0x7f09001b
 			public const int view_offset_helper = 2131296283;
 			
-			// aapt resource value: 0x7f0900d7
-			public const int visible = 2131296471;
+			// aapt resource value: 0x7f0900d6
+			public const int visible = 2131296470;
 			
-			// aapt resource value: 0x7f0900dc
-			public const int wallet = 2131296476;
+			// aapt resource value: 0x7f0900db
+			public const int wallet = 2131296475;
 			
 			// aapt resource value: 0x7f090043
 			public const int withText = 2131296323;
