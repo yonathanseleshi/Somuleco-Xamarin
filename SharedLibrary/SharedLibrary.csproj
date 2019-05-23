@@ -9,7 +9,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
-    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="System.Reactive" Version="4.1.5" />
+    <PackageReference Include="Realm" Version="3.4.0" />
+    <PackageReference Include="Microsoft.Azure.Mobile.Client" Version="4.1.1" />
+    <PackageReference Include="NLog" Version="4.6.3" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="global.json" />
@@ -17,5 +20,6 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Services\" />
+    <Folder Include="ModelsRealm\" />
   </ItemGroup>
 </Project>

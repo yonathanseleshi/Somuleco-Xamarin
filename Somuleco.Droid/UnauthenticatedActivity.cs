@@ -15,6 +15,7 @@ using Android.Views;
 using Android.Widget;
 using Somuleco.Droid;
 using Android.Support.V7.App;
+using Toolbar = Android.Support.V7.Widget.Toolbar;
 
 namespace Somuleco.Droid
 {
@@ -29,6 +30,11 @@ namespace Somuleco.Droid
 
             // Create your application here
             SetContentView(Resource.Layout.unauthenticated_main_activity);
+
+           var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.unAuthToolbar);
+
+            SetSupportActionBar(toolbar);
+            SupportActionBar.Title = "Somuleco";
 
             var fragments = new Android.Support.V4.App.Fragment[]{
 

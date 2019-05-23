@@ -7,10 +7,10 @@ namespace Somuleco.Droid
     public class UnauthenticatedAdapter : FragmentPagerAdapter
     {
 
-        Fragment[] fragments;
+        Android.Support.V4.App.Fragment[] fragments;
         ICharSequence[] titles;
 
-        public UnauthenticatedAdapter(FragmentManager fm, Fragment[] fragments, ICharSequence[] titles)
+        public UnauthenticatedAdapter(Android.Support.V4.App.FragmentManager fm, Fragment[] fragments, ICharSequence[] titles)
         : base(fm)
         {
             this.fragments = fragments;
@@ -22,9 +22,9 @@ namespace Somuleco.Droid
             get { return fragments.Length; }
         }
 
-        public override Fragment GetItem(int position)
+        public override Android.Support.V4.App.Fragment GetItem(int position)
         {
-            return fragments[position];
+            return (Android.Support.V4.App.Fragment)fragments[position];
         }
 
     }
