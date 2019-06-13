@@ -18,6 +18,10 @@ namespace Somuleco.IOS
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void UIButton201_TouchUpInside (UIKit.UIButton sender);
 
+        [Action ("UIButton210_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void UIButton210_TouchUpInside (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
         }

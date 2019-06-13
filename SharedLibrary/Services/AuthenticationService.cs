@@ -9,27 +9,28 @@ using System.Reactive.Subjects;
 using System.Reactive.Linq;
 using SharedLibrary.Models;
 using SharedLibrary.ModelsRealm;
+using SharedLibrary.Services.Interfaces;
 
 namespace SharedLibrary.Services
 {
-    public class AuthenticationService
+    public class AuthenticationService : IAuthenticationService
     {
 
-        HttpClient _client;
-        BehaviorSubject<bool> isAuthenticated;
-        IObservable<bool> authStatus;
-        FacebookUser fbUser;
-        GoogleUser googleUser;
-        User user;
+        private HttpClient _client;
+        public BehaviorSubject<bool> isAuthenticated;
+        public IObservable<bool> authStatus;
+        public FacebookUser fbUser;
+        public GoogleUser googleUser;
+        private User user;
 
-        BehaviorSubject<User> userObj;
-        IObservable<User> currentUser;
+        public BehaviorSubject<User> userObj;
+        public IObservable<User> currentUser;
 
-        BehaviorSubject<FacebookUser> fbUserObj;
-        IObservable<FacebookUser> currentFbUser;
+        public BehaviorSubject<FacebookUser> fbUserObj;
+        public IObservable<FacebookUser> currentFbUser;
 
-        BehaviorSubject<GoogleUser> googleUserObj;
-        IObservable<GoogleUser> currentGoogleUser;
+        public BehaviorSubject<GoogleUser> googleUserObj;
+        public IObservable<GoogleUser> currentGoogleUser;
 
 
         public AuthenticationService()
@@ -67,6 +68,16 @@ namespace SharedLibrary.Services
 
 
 
+        }
+
+        public void login(string password, string email)
+        {
+
+        }
+
+        public void signup(string fName, string lName, string displayName, string userName, string email, string password)
+        {
+            
         }
     }
 }

@@ -13,6 +13,7 @@
     <PackageReference Include="Realm" Version="3.4.0" />
     <PackageReference Include="Microsoft.Azure.Mobile.Client" Version="4.1.1" />
     <PackageReference Include="NLog" Version="4.6.3" />
+    <PackageReference Include="MvvmCross.StarterPack" Version="5.7.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="global.json" />
@@ -22,5 +23,9 @@
     <Folder Include="Services\" />
     <Folder Include="ModelsRealm\" />
     <Folder Include="DAOs\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Repos\" />
+    <Folder Include="Repos\Interfaces\" />
   </ItemGroup>
 </Project>
