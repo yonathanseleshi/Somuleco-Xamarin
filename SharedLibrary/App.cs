@@ -4,8 +4,8 @@ using MvvmCross;
 using SharedLibrary.ViewModels;
 using SharedLibrary.Services;
 using SharedLibrary.Services.Interfaces;
-using MvvmCross.Platform;
-using MvvmCross.Core.ViewModels;
+using MvvmCross.IoC;
+using MvvmCross.ViewModels;
 
 namespace SharedLibrary
 {
@@ -14,8 +14,10 @@ namespace SharedLibrary
         public override void Initialize()
         {
 
-
-            Mvx.RegisterType<IAuthenticationService, AuthenticationService>();
+            CreatableTypes()
+               .EndingWith("Service")
+               .AsInterfaces()
+               .RegisterAsLazySingleton();
 
          
         }

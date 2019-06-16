@@ -1,16 +1,23 @@
 ﻿using Foundation;
 using UIKit;
+using SharedLibrary;
+using MvvmCross.Platforms.Ios.Core;
 
 namespace Somuleco.IOS
 {
 	// The UIApplicationDelegate for the application. This class is responsible for launching the
 	// User Interface of the application, as well as listening (and optionally responding) to application events from iOS.
 	[Register("AppDelegate")]
-	public class AppDelegate : UIApplicationDelegate
-	{
-		// class-level declarations
+	public class AppDelegate : MvxApplicationDelegate<MvxIosSetup<App>, App>
+    {
 
-		public override UIWindow Window
+
+
+
+        // class-level declarations
+
+            /*
+    public override UIWindow Window
 		{
 			get;
 			set;
@@ -54,6 +61,7 @@ namespace Somuleco.IOS
 		{
 			// Called when the application is about to terminate. Save data, if needed. See also DidEnterBackground.
 		}
+        */
 	}
 }
 
