@@ -2,6 +2,7 @@
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Platforms.Ios.Presenters.Attributes;
 using MvvmCross.Platforms.Ios.Views;
+using SharedLibrary.ViewModels;
 
 using UIKit;
 
@@ -16,7 +17,13 @@ namespace Somuleco.IOS.Views
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            // Perform any additional setup after loading the view, typically from a nib.
+            var set = this.CreateBindingSet<LoginView, LoginViewModel>();
+            set.Bind(LoginEmail).To(vm => vm.Email);
+            set.Bind(LoginPassword).To(vm => vm.Password);
+            set.Bind(LoginBtn).To(vm => vm.LoginCommand);
+            set.Bind(SignupBtn).To(vm => vm.GoToSignupCommand);
+            set.Bind(LoginBtn).To(vm => vm.CancelCommand);
+            set.Apply();
         }
 
         public override void DidReceiveMemoryWarning()

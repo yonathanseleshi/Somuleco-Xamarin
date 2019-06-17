@@ -1,5 +1,8 @@
 ﻿using System;
-using MvvmCross.Core.ViewModels;
+using System.Threading.Tasks;
+using MvvmCross.Commands;
+using MvvmCross.Navigation;
+using MvvmCross.ViewModels;
 using SharedLibrary.Services.Interfaces;
 
 
@@ -9,15 +12,25 @@ namespace SharedLibrary.ViewModels
     {
 
         readonly IAuthenticationService _authService;
+        private readonly IMvxNavigationService _navigationService;
+        public SignupViewModel signupViewModel;
 
-        public LoginViewModel(IAuthenticationService authService)
+        public LoginViewModel(IAuthenticationService authService, IMvxNavigationService navigationService)
         {
 
 
             _authService = authService;
+            _navigationService = navigationService;
+            
 
         }
 
+
+
+
+        public IMvxCommand LoginCommand => new MvxCommand(Login);
+        public IMvxCommand GoToSignupCommand => new MvxCommand(GoToSignup);
+        public IMvxCommand CancelCommand => new MvxCommand(CancelLogin);
 
         private string email;
         public string Email
@@ -28,8 +41,7 @@ namespace SharedLibrary.ViewModels
             }
             set
             {
-                email = value;
-                RaisePropertyChanged(() => Email);
+                SetProperty(ref email, value);
             }
         }
 
@@ -45,7 +57,7 @@ namespace SharedLibrary.ViewModels
             set
             {
                 password = value;
-                RaisePropertyChanged(() => Password);
+                SetProperty(ref password, value);
             }
         }
 
@@ -66,6 +78,24 @@ namespace SharedLibrary.ViewModels
 
 
 
+
+        public void GoToSignup()
+        {
+
+            _navigationService.Navigate<SignupViewModel>();
+           
+
+        }
+
+
+
+        private void CancelLogin()
+        {
+
+
+            
+
+        }
 
 
     }
