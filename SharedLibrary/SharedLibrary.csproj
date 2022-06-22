@@ -8,7 +8,7 @@
     <Compile Remove="Class1.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Reactive" Version="4.1.5" />
     <PackageReference Include="Realm" Version="3.4.0" />
     <PackageReference Include="Microsoft.Azure.Mobile.Client" Version="4.1.1" />
